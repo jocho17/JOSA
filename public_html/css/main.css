@@ -1,0 +1,124 @@
+
+/*Navegation bar*/
+
+/*Body*/
+
+body {
+	font-family:  "Open Sans", sans-serif; 
+	font-size: 100%;
+
+}
+
+
+section {
+
+	margin: 10rem 3rem 3rem 3rem ;
+	padding-top: 5rem;
+
+}
+
+
+div.homepage {
+	margin-top: 15rem;
+}
+
+
+
+/*navigation bar*/
+
+#logo {
+	left: 0;
+	font-size: 1.2em;
+	font-style: bold;
+}
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  /*font-weight: bold;*/
+  font-size: 100%;
+  display: inline-block;
+  background-color: #262626; 
+  position: fixed;
+  right:0;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.20rem;
+
+  padding: 1.1rem 3rem 1.1rem 3rem;
+
+
+}
+
+
+
+.nav-item {
+	display: inline-block;
+  	padding: 1.3em;
+  	color: white;
+	background-color: #262626;
+ 	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+  	position: relative;
+  	text-align: center;
+  	font-size: 100%;
+  	margin:0em 0.5em 0em 0.5em;
+  	
+
+  
+
+
+
+}
+
+.nav-item:hover, .nav-item:focus {
+/*  background-color: #EEE;*/
+  font-weight: bold;
+  color:#D74227;
+  
+
+
+}
+
+/*Reservation Button*/
+
+#rsv-button {
+
+  background-color: #D74227;
+
+
+  margin: 0.7em 0em 0.5em;
+  padding: 0.5em 0em 0.5em;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+
+  
+
+
+}
+
+
+
+#rsv-button:hover, #rsv-button:focus {
+	background-color: #6B2219;
+	color: white;
+
+}
+
+
+
+
+
+/*Header*/
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Noto Sans", sans-serif;
+}
+
+
+h2 {
+	text-align: center;
+	letter-spacing: 0.23rem;
+}

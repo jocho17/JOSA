@@ -1,0 +1,215 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide what happen t
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 2rem;
+
+}
+
+
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 0.15em solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
+section p {
+  margin-top: 0;
+}
+
+
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+/*section a {
+  font-family: "Montserrat", sans-serif;
+  
+}*/
+
+section h1{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+
+/*
+.nav-item {
+  color: #14263F;
+  transition: color 0.5s;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+
+
+}
+
+.nav-item:hover, .nav-item:focus {
+  color: #5DB3D8;
+  text-decoration:  none;
+
+}*/
+
+section img {
+  max-width: 80%;
+  height: auto;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+
+#interactive_elements{
+   margin-top: 8rem ;
+  padding-top: 0;
+  position: static;
+}
+
+
+.button-nav {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  padding: 1em 2em;
+  color: white;
+
+  background-color: #232323;
+ 
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #EEE;
+  font-weight: bold;
+  
+
+
+}
+
+.intextlink {
+  font-family: "'Source Sans Pro'", sans-serif;
+  color: #231F20;
+  text-decoration: underline;
+
+}
+
+.intextlink:hover, .intextlink:focus {
+  color: rgb(200,0,0);
+  text-decoration: underline;
+ 
+
+}
+
+.button {
+  display: inline-block;
+  background-color: #D74227;
+  color: white;
+  padding: 1em 2em;
+ 
+
+
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+
+
+}
+
+.button:hover, .button:focus {
+  background-color: #6B2219;
+}
+
+section input {
+
+
+  border-color: black;
+  padding:0.75em;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+section h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+  letter-spacing: 0em
+}
+
+section h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  /*padding-bottom: 2rem;*/
+}
+
+
+section h4 {
+  font-family: "Noto Sana", sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+section p {
+  
+  width: 40em;
+  font-size: 1em;
+
+}
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+ .navbar1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #232323; 
+}
+
+ .productbox {
+  display: inline-block;
+  width: 30%;
+}
+
+img{
+  max-width: 100%;
+}
+
+figure img {
+  max-width: 80% ;
+}
+
+
+
+
